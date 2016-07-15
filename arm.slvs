@@ -1,0 +1,4529 @@
+±²³SolveSpaceREVa
+
+
+Group.h.v=00000001
+Group.type=5000
+Group.name=#references
+Group.color=ff000000
+Group.skipFirst=0
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=1
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.scale=1.0000
+Group.remap={
+}
+AddGroup
+
+Group.h.v=00000002
+Group.type=5001
+Group.order=1
+Group.name=sketch-in-plane
+Group.activeWorkplane.v=80020000
+Group.color=ff000000
+Group.subtype=6000
+Group.skipFirst=0
+Group.predef.q.w=1.0000
+Group.predef.origin.v=00010001
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=1
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.scale=1.0000
+Group.remap={
+}
+AddGroup
+
+Group.h.v=00000003
+Group.type=5100
+Group.order=2
+Group.name=extrude
+Group.opA.v=00000002
+Group.color=00646464
+Group.subtype=7001
+Group.skipFirst=0
+Group.predef.entityB.v=80020000
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=0
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.scale=1.0000
+Group.remap={
+    1 00040000 1002
+    2 00040001 1002
+    3 00040002 1002
+    4 00040000 1001
+    5 00040001 1001
+    6 00040002 1001
+    7 00040000 1004
+    8 00040001 1003
+    9 00040002 1003
+    10 00050000 1002
+    11 00050001 1002
+    12 00050002 1002
+    13 00050000 1001
+    14 00050001 1001
+    15 00050002 1001
+    16 00050000 1004
+    17 00050001 1003
+    18 00050002 1003
+    19 00060000 1002
+    20 00060001 1002
+    21 00060002 1002
+    22 00060000 1001
+    23 00060001 1001
+    24 00060002 1001
+    25 00060000 1004
+    26 00060001 1003
+    27 00060002 1003
+    28 00070000 1002
+    29 00070001 1002
+    30 00070002 1002
+    31 00070000 1001
+    32 00070001 1001
+    33 00070002 1001
+    34 00070000 1004
+    35 00070001 1003
+    36 00070002 1003
+    37 00080000 1002
+    38 00080001 1002
+    39 00080002 1002
+    40 00080000 1001
+    41 00080001 1001
+    42 00080002 1001
+    43 00080000 1004
+    44 00080001 1003
+    45 00080002 1003
+    46 00090000 1002
+    47 00090001 1002
+    48 00090002 1002
+    49 00090000 1001
+    50 00090001 1001
+    51 00090002 1001
+    52 00090000 1004
+    53 00090001 1003
+    54 00090002 1003
+    55 000a0000 1002
+    56 000a0001 1002
+    57 000a0002 1002
+    58 000a0000 1001
+    59 000a0001 1001
+    60 000a0002 1001
+    61 000a0000 1004
+    62 000a0001 1003
+    63 000a0002 1003
+    64 000b0000 1002
+    65 000b0001 1002
+    66 000b0002 1002
+    67 000b0000 1001
+    68 000b0001 1001
+    69 000b0002 1001
+    70 000b0000 1004
+    71 000b0001 1003
+    72 000b0002 1003
+    73 000c0000 1002
+    74 000c0001 1002
+    75 000c0002 1002
+    76 000c0000 1001
+    77 000c0001 1001
+    78 000c0002 1001
+    79 000c0000 1004
+    80 000c0001 1003
+    81 000c0002 1003
+    82 000d0000 1002
+    83 000d0001 1002
+    84 000d0002 1002
+    85 000d0000 1001
+    86 000d0001 1001
+    87 000d0002 1001
+    88 000d0000 1004
+    89 000d0001 1003
+    90 000d0002 1003
+    91 000e0000 1002
+    92 000e0001 1002
+    93 000e0002 1002
+    94 000e0000 1001
+    95 000e0001 1001
+    96 000e0002 1001
+    97 000e0000 1004
+    98 000e0001 1003
+    99 000e0002 1003
+    100 000f0000 1002
+    101 000f0001 1002
+    102 000f0002 1002
+    103 000f0000 1001
+    104 000f0001 1001
+    105 000f0002 1001
+    106 000f0000 1004
+    107 000f0001 1003
+    108 000f0002 1003
+    109 00100000 1002
+    110 00100001 1002
+    111 00100002 1002
+    112 00100000 1001
+    113 00100001 1001
+    114 00100002 1001
+    115 00100000 1004
+    116 00100001 1003
+    117 00100002 1003
+    118 00110000 1002
+    119 00110001 1002
+    120 00110002 1002
+    121 00110000 1001
+    122 00110001 1001
+    123 00110002 1001
+    124 00110000 1004
+    125 00110001 1003
+    126 00110002 1003
+    127 00120000 1002
+    128 00120001 1002
+    129 00120002 1002
+    130 00120000 1001
+    131 00120001 1001
+    132 00120002 1001
+    133 00120000 1004
+    134 00120001 1003
+    135 00120002 1003
+    136 00130000 1002
+    137 00130001 1002
+    138 00130002 1002
+    139 00130000 1001
+    140 00130001 1001
+    141 00130002 1001
+    142 00130000 1004
+    143 00130001 1003
+    144 00130002 1003
+    145 80020000 1002
+    146 80020000 1001
+    147 80020001 1002
+    148 80020002 1002
+    149 80020001 1001
+    150 80020002 1001
+    151 80020002 1003
+    152 00000000 1001
+    153 00000000 1002
+    154 00140000 1002
+    155 00140001 1002
+    156 00140002 1002
+    157 00140000 1001
+    158 00140001 1001
+    159 00140002 1001
+    160 00140000 1004
+    161 00140001 1003
+    162 00140002 1003
+    163 00150000 1002
+    164 00150001 1002
+    165 00150002 1002
+    166 00150003 1002
+    167 00150020 1002
+    168 00150000 1001
+    169 00150001 1001
+    170 00150002 1001
+    171 00150003 1001
+    172 00150020 1001
+    173 00150001 1003
+    174 00150002 1003
+    175 00150003 1003
+    176 00160000 1002
+    177 00160001 1002
+    178 00160002 1002
+    179 00160000 1001
+    180 00160001 1001
+    181 00160002 1001
+    182 00160000 1004
+    183 00160001 1003
+    184 00160002 1003
+    185 00170000 1002
+    186 00170001 1002
+    187 00170002 1002
+    188 00170000 1001
+    189 00170001 1001
+    190 00170002 1001
+    191 00170000 1004
+    192 00170001 1003
+    193 00170002 1003
+    194 00180000 1002
+    195 00180001 1002
+    196 00180002 1002
+    197 00180003 1002
+    198 00180020 1002
+    199 00180000 1001
+    200 00180001 1001
+    201 00180002 1001
+    202 00180003 1001
+    203 00180020 1001
+    204 00180001 1003
+    205 00180002 1003
+    206 00180003 1003
+    207 00190000 1002
+    208 00190001 1002
+    209 00190002 1002
+    210 00190000 1001
+    211 00190001 1001
+    212 00190002 1001
+    213 00190000 1004
+    214 00190001 1003
+    215 00190002 1003
+    216 001a0000 1002
+    217 001a0001 1002
+    218 001a0002 1002
+    219 001a0000 1001
+    220 001a0001 1001
+    221 001a0002 1001
+    222 001a0000 1004
+    223 001a0001 1003
+    224 001a0002 1003
+    225 001b0000 1002
+    226 001b0001 1002
+    227 001b0002 1002
+    228 001b0003 1002
+    229 001b0020 1002
+    230 001b0000 1001
+    231 001b0001 1001
+    232 001b0002 1001
+    233 001b0003 1001
+    234 001b0020 1001
+    235 001b0001 1003
+    236 001b0002 1003
+    237 001b0003 1003
+    238 001c0000 1002
+    239 001c0001 1002
+    240 001c0002 1002
+    241 001c0000 1001
+    242 001c0001 1001
+    243 001c0002 1001
+    244 001c0000 1004
+    245 001c0001 1003
+    246 001c0002 1003
+    247 001d0000 1002
+    248 001d0001 1002
+    249 001d0002 1002
+    250 001d0000 1001
+    251 001d0001 1001
+    252 001d0002 1001
+    253 001d0000 1004
+    254 001d0001 1003
+    255 001d0002 1003
+    256 001e0000 1002
+    257 001e0001 1002
+    258 001e0002 1002
+    259 001e0003 1002
+    260 001e0020 1002
+    261 001e0000 1001
+    262 001e0001 1001
+    263 001e0002 1001
+    264 001e0003 1001
+    265 001e0020 1001
+    266 001e0001 1003
+    267 001e0002 1003
+    268 001e0003 1003
+    269 001f0000 1002
+    270 001f0001 1002
+    271 001f0002 1002
+    272 001f0000 1001
+    273 001f0001 1001
+    274 001f0002 1001
+    275 001f0000 1004
+    276 001f0001 1003
+    277 001f0002 1003
+    278 00200000 1002
+    279 00200001 1002
+    280 00200002 1002
+    281 00200000 1001
+    282 00200001 1001
+    283 00200002 1001
+    284 00200000 1004
+    285 00200001 1003
+    286 00200002 1003
+    287 00210000 1002
+    288 00210001 1002
+    289 00210002 1002
+    290 00210000 1001
+    291 00210001 1001
+    292 00210002 1001
+    293 00210000 1004
+    294 00210001 1003
+    295 00210002 1003
+    296 00220000 1002
+    297 00220001 1002
+    298 00220002 1002
+    299 00220000 1001
+    300 00220001 1001
+    301 00220002 1001
+    302 00220000 1004
+    303 00220001 1003
+    304 00220002 1003
+    305 00230000 1002
+    306 00230001 1002
+    307 00230002 1002
+    308 00230000 1001
+    309 00230001 1001
+    310 00230002 1001
+    311 00230000 1004
+    312 00230001 1003
+    313 00230002 1003
+    314 00240000 1002
+    315 00240001 1002
+    316 00240002 1002
+    317 00240000 1001
+    318 00240001 1001
+    319 00240002 1001
+    320 00240000 1004
+    321 00240001 1003
+    322 00240002 1003
+    323 00250000 1002
+    324 00250001 1002
+    325 00250002 1002
+    326 00250000 1001
+    327 00250001 1001
+    328 00250002 1001
+    329 00250000 1004
+    330 00250001 1003
+    331 00250002 1003
+    332 00260000 1002
+    333 00260001 1002
+    334 00260002 1002
+    335 00260003 1002
+    336 00260020 1002
+    337 00260000 1001
+    338 00260001 1001
+    339 00260002 1001
+    340 00260003 1001
+    341 00260020 1001
+    342 00260001 1003
+    343 00260002 1003
+    344 00260003 1003
+    345 00270000 1002
+    346 00270001 1002
+    347 00270002 1002
+    348 00270000 1001
+    349 00270001 1001
+    350 00270002 1001
+    351 00270000 1004
+    352 00270001 1003
+    353 00270002 1003
+    354 00280000 1002
+    355 00280001 1002
+    356 00280002 1002
+    357 00280000 1001
+    358 00280001 1001
+    359 00280002 1001
+    360 00280000 1004
+    361 00280001 1003
+    362 00280002 1003
+    363 00290000 1002
+    364 00290001 1002
+    365 00290002 1002
+    366 00290003 1002
+    367 00290020 1002
+    368 00290000 1001
+    369 00290001 1001
+    370 00290002 1001
+    371 00290003 1001
+    372 00290020 1001
+    373 00290001 1003
+    374 00290002 1003
+    375 00290003 1003
+    376 002a0000 1002
+    377 002a0001 1002
+    378 002a0002 1002
+    379 002a0000 1001
+    380 002a0001 1001
+    381 002a0002 1001
+    382 002a0000 1004
+    383 002a0001 1003
+    384 002a0002 1003
+    385 002b0000 1002
+    386 002b0001 1002
+    387 002b0002 1002
+    388 002b0000 1001
+    389 002b0001 1001
+    390 002b0002 1001
+    391 002b0000 1004
+    392 002b0001 1003
+    393 002b0002 1003
+    394 002c0000 1002
+    395 002c0001 1002
+    396 002c0002 1002
+    397 002c0003 1002
+    398 002c0020 1002
+    399 002c0000 1001
+    400 002c0001 1001
+    401 002c0002 1001
+    402 002c0003 1001
+    403 002c0020 1001
+    404 002c0001 1003
+    405 002c0002 1003
+    406 002c0003 1003
+    407 002d0000 1002
+    408 002d0001 1002
+    409 002d0002 1002
+    410 002d0000 1001
+    411 002d0001 1001
+    412 002d0002 1001
+    413 002d0000 1004
+    414 002d0001 1003
+    415 002d0002 1003
+    416 002e0000 1002
+    417 002e0001 1002
+    418 002e0002 1002
+    419 002e0000 1001
+    420 002e0001 1001
+    421 002e0002 1001
+    422 002e0000 1004
+    423 002e0001 1003
+    424 002e0002 1003
+    425 002f0000 1002
+    426 002f0001 1002
+    427 002f0002 1002
+    428 002f0003 1002
+    429 002f0020 1002
+    430 002f0000 1001
+    431 002f0001 1001
+    432 002f0002 1001
+    433 002f0003 1001
+    434 002f0020 1001
+    435 002f0001 1003
+    436 002f0002 1003
+    437 002f0003 1003
+    438 00300000 1002
+    439 00300001 1002
+    440 00300002 1002
+    441 00300000 1001
+    442 00300001 1001
+    443 00300002 1001
+    444 00300000 1004
+    445 00300001 1003
+    446 00300002 1003
+    447 00310000 1002
+    448 00310001 1002
+    449 00310002 1002
+    450 00310000 1001
+    451 00310001 1001
+    452 00310002 1001
+    453 00310000 1004
+    454 00310001 1003
+    455 00310002 1003
+}
+AddGroup
+
+Param.h.v.=00010010
+AddParam
+
+Param.h.v.=00010011
+AddParam
+
+Param.h.v.=00010012
+AddParam
+
+Param.h.v.=00010020
+Param.val=1.0000
+AddParam
+
+Param.h.v.=00010021
+AddParam
+
+Param.h.v.=00010022
+AddParam
+
+Param.h.v.=00010023
+AddParam
+
+Param.h.v.=00020010
+AddParam
+
+Param.h.v.=00020011
+AddParam
+
+Param.h.v.=00020012
+AddParam
+
+Param.h.v.=00020020
+Param.val=0.5000
+AddParam
+
+Param.h.v.=00020021
+Param.val=0.5000
+AddParam
+
+Param.h.v.=00020022
+Param.val=0.5000
+AddParam
+
+Param.h.v.=00020023
+Param.val=0.5000
+AddParam
+
+Param.h.v.=00030010
+AddParam
+
+Param.h.v.=00030011
+AddParam
+
+Param.h.v.=00030012
+AddParam
+
+Param.h.v.=00030020
+Param.val=0.5000
+AddParam
+
+Param.h.v.=00030021
+Param.val=-0.5000
+AddParam
+
+Param.h.v.=00030022
+Param.val=-0.5000
+AddParam
+
+Param.h.v.=00030023
+Param.val=-0.5000
+AddParam
+
+Param.h.v.=00040010
+Param.val=4.0000
+AddParam
+
+Param.h.v.=00040011
+Param.val=6.2521
+AddParam
+
+Param.h.v.=00040013
+Param.val=3.5000
+AddParam
+
+Param.h.v.=00040014
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00060010
+Param.val=-3.5000
+AddParam
+
+Param.h.v.=00060011
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00060013
+Param.val=-4.0000
+AddParam
+
+Param.h.v.=00060014
+Param.val=6.2521
+AddParam
+
+Param.h.v.=00070010
+Param.val=-3.5000
+AddParam
+
+Param.h.v.=00070011
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00070013
+Param.val=-1.7000
+AddParam
+
+Param.h.v.=00070014
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00080010
+Param.val=-1.7000
+AddParam
+
+Param.h.v.=00080011
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00080013
+Param.val=-1.7000
+AddParam
+
+Param.h.v.=00080014
+Param.val=60.0000
+AddParam
+
+Param.h.v.=00120010
+Param.val=1.7000
+AddParam
+
+Param.h.v.=00120011
+Param.val=60.0000
+AddParam
+
+Param.h.v.=00120013
+Param.val=1.7000
+AddParam
+
+Param.h.v.=00120014
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00130010
+Param.val=1.7000
+AddParam
+
+Param.h.v.=00130011
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00130013
+Param.val=3.5000
+AddParam
+
+Param.h.v.=00130014
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00210010
+Param.val=-4.0000
+AddParam
+
+Param.h.v.=00210011
+Param.val=6.2521
+AddParam
+
+Param.h.v.=00210013
+Param.val=-4.0000
+AddParam
+
+Param.h.v.=00210014
+AddParam
+
+Param.h.v.=00230010
+Param.val=4.0000
+AddParam
+
+Param.h.v.=00230011
+AddParam
+
+Param.h.v.=00230013
+Param.val=4.0000
+AddParam
+
+Param.h.v.=00230014
+Param.val=6.2521
+AddParam
+
+Param.h.v.=00240010
+Param.val=-4.0000
+AddParam
+
+Param.h.v.=00240011
+AddParam
+
+Param.h.v.=00240013
+Param.val=4.0000
+AddParam
+
+Param.h.v.=00240014
+AddParam
+
+Param.h.v.=00250010
+Param.val=-1.7000
+AddParam
+
+Param.h.v.=00250011
+Param.val=60.0000
+AddParam
+
+Param.h.v.=00250013
+Param.val=1.7000
+AddParam
+
+Param.h.v.=00250014
+Param.val=60.0000
+AddParam
+
+Param.h.v.=00260010
+Param.val=-2.5078
+AddParam
+
+Param.h.v.=00260011
+Param.val=69.0000
+AddParam
+
+Param.h.v.=00260013
+Param.val=-2.5078
+AddParam
+
+Param.h.v.=00260014
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00260016
+Param.val=-3.5078
+AddParam
+
+Param.h.v.=00260017
+Param.val=69.0078
+AddParam
+
+Param.h.v.=00270010
+Param.val=-3.5078
+AddParam
+
+Param.h.v.=00270011
+Param.val=69.0078
+AddParam
+
+Param.h.v.=00270013
+Param.val=-4.0000
+AddParam
+
+Param.h.v.=00270014
+Param.val=6.2521
+AddParam
+
+Param.h.v.=00280010
+Param.val=-2.5078
+AddParam
+
+Param.h.v.=00280011
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00280013
+Param.val=-1.7000
+AddParam
+
+Param.h.v.=00280014
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00290010
+Param.val=2.5078
+AddParam
+
+Param.h.v.=00290011
+Param.val=69.0000
+AddParam
+
+Param.h.v.=00290013
+Param.val=3.5078
+AddParam
+
+Param.h.v.=00290014
+Param.val=69.0078
+AddParam
+
+Param.h.v.=00290016
+Param.val=2.5078
+AddParam
+
+Param.h.v.=00290017
+Param.val=70.0000
+AddParam
+
+Param.h.v.=002a0010
+Param.val=3.5078
+AddParam
+
+Param.h.v.=002a0011
+Param.val=69.0078
+AddParam
+
+Param.h.v.=002a0013
+Param.val=4.0000
+AddParam
+
+Param.h.v.=002a0014
+Param.val=6.2521
+AddParam
+
+Param.h.v.=002b0010
+Param.val=2.5078
+AddParam
+
+Param.h.v.=002b0011
+Param.val=70.0000
+AddParam
+
+Param.h.v.=002b0013
+Param.val=1.7000
+AddParam
+
+Param.h.v.=002b0014
+Param.val=70.0000
+AddParam
+
+Param.h.v.=002c0010
+Param.val=-1.2000
+AddParam
+
+Param.h.v.=002c0011
+Param.val=60.5000
+AddParam
+
+Param.h.v.=002c0013
+Param.val=-1.7000
+AddParam
+
+Param.h.v.=002c0014
+Param.val=60.5000
+AddParam
+
+Param.h.v.=002c0016
+Param.val=-1.2000
+AddParam
+
+Param.h.v.=002c0017
+Param.val=60.0000
+AddParam
+
+Param.h.v.=002d0010
+Param.val=-1.7000
+AddParam
+
+Param.h.v.=002d0011
+Param.val=60.5000
+AddParam
+
+Param.h.v.=002d0013
+Param.val=-1.7000
+AddParam
+
+Param.h.v.=002d0014
+Param.val=70.0000
+AddParam
+
+Param.h.v.=002e0010
+Param.val=-1.2000
+AddParam
+
+Param.h.v.=002e0011
+Param.val=60.0000
+AddParam
+
+Param.h.v.=002e0013
+Param.val=1.7000
+AddParam
+
+Param.h.v.=002e0014
+Param.val=60.0000
+AddParam
+
+Param.h.v.=002f0010
+Param.val=1.2000
+AddParam
+
+Param.h.v.=002f0011
+Param.val=60.5000
+AddParam
+
+Param.h.v.=002f0013
+Param.val=1.2000
+AddParam
+
+Param.h.v.=002f0014
+Param.val=60.0000
+AddParam
+
+Param.h.v.=002f0016
+Param.val=1.7000
+AddParam
+
+Param.h.v.=002f0017
+Param.val=60.5000
+AddParam
+
+Param.h.v.=00300010
+Param.val=1.7000
+AddParam
+
+Param.h.v.=00300011
+Param.val=60.5000
+AddParam
+
+Param.h.v.=00300013
+Param.val=1.7000
+AddParam
+
+Param.h.v.=00300014
+Param.val=70.0000
+AddParam
+
+Param.h.v.=00310010
+Param.val=1.2000
+AddParam
+
+Param.h.v.=00310011
+Param.val=60.0000
+AddParam
+
+Param.h.v.=00310013
+Param.val=-1.2000
+AddParam
+
+Param.h.v.=00310014
+Param.val=60.0000
+AddParam
+
+Param.h.v.=80030000
+AddParam
+
+Param.h.v.=80030001
+AddParam
+
+Param.h.v.=80030002
+Param.val=2.0000
+AddParam
+
+Request.h.v=00000001
+Request.type=100
+Request.group.v=00000001
+Request.construction=0
+AddRequest
+
+Request.h.v=00000002
+Request.type=100
+Request.group.v=00000001
+Request.construction=0
+AddRequest
+
+Request.h.v=00000003
+Request.type=100
+Request.group.v=00000001
+Request.construction=0
+AddRequest
+
+Request.h.v=00000004
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=1
+AddRequest
+
+Request.h.v=00000006
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=1
+AddRequest
+
+Request.h.v=00000007
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=1
+AddRequest
+
+Request.h.v=00000008
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=1
+AddRequest
+
+Request.h.v=00000012
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=1
+AddRequest
+
+Request.h.v=00000013
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=1
+AddRequest
+
+Request.h.v=00000021
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=00000023
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=00000024
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=1
+AddRequest
+
+Request.h.v=00000025
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=1
+AddRequest
+
+Request.h.v=00000026
+Request.type=500
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=00000027
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=00000028
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=00000029
+Request.type=500
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=0000002a
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=0000002b
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=0000002c
+Request.type=500
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=0000002d
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=0000002e
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=1
+AddRequest
+
+Request.h.v=0000002f
+Request.type=500
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=00000030
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=00000031
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Entity.h.v=00010000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=00010001
+Entity.normal.v=00010020
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00010001
+Entity.type=2000
+Entity.construction=0
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00010020
+Entity.type=3000
+Entity.construction=0
+Entity.point[0].v=00010001
+Entity.actNormal.w=1.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00020000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=00020001
+Entity.normal.v=00020020
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00020001
+Entity.type=2000
+Entity.construction=0
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00020020
+Entity.type=3000
+Entity.construction=0
+Entity.point[0].v=00020001
+Entity.actNormal.w=0.5000
+Entity.actNormal.vx=0.5000
+Entity.actNormal.vy=0.5000
+Entity.actNormal.vz=0.5000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00030000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=00030001
+Entity.normal.v=00030020
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00030001
+Entity.type=2000
+Entity.construction=0
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00030020
+Entity.type=3000
+Entity.construction=0
+Entity.point[0].v=00030001
+Entity.actNormal.w=0.5000
+Entity.actNormal.vx=-0.5000
+Entity.actNormal.vy=-0.5000
+Entity.actNormal.vz=-0.5000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00040000
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=00040001
+Entity.point[1].v=00040002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00040001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=4.0000
+Entity.actPoint.y=6.2521
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00040002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=3.5000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00060000
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=00060001
+Entity.point[1].v=00060002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00060001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-3.5000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00060002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-4.0000
+Entity.actPoint.y=6.2521
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00070000
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=00070001
+Entity.point[1].v=00070002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00070001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-3.5000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00070002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00080000
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=00080001
+Entity.point[1].v=00080002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00080001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00080002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00120000
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=00120001
+Entity.point[1].v=00120002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00120001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00120002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00130000
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=00130001
+Entity.point[1].v=00130002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00130001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00130002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=3.5000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00210000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=00210001
+Entity.point[1].v=00210002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00210001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-4.0000
+Entity.actPoint.y=6.2521
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00210002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-4.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00230000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=00230001
+Entity.point[1].v=00230002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00230001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=4.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00230002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=4.0000
+Entity.actPoint.y=6.2521
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00240000
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=00240001
+Entity.point[1].v=00240002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00240001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-4.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00240002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=4.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00250000
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=00250001
+Entity.point[1].v=00250002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00250001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00250002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00260000
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=00260001
+Entity.point[1].v=00260002
+Entity.point[2].v=00260003
+Entity.normal.v=00260020
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00260001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-2.5078
+Entity.actPoint.y=69.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00260002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-2.5078
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00260003
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-3.5078
+Entity.actPoint.y=69.0078
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00260020
+Entity.type=3001
+Entity.construction=0
+Entity.point[0].v=00260001
+Entity.workplane.v=80020000
+Entity.actNormal.w=1.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00270000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=00270001
+Entity.point[1].v=00270002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00270001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-3.5078
+Entity.actPoint.y=69.0078
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00270002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-4.0000
+Entity.actPoint.y=6.2521
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00280000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=00280001
+Entity.point[1].v=00280002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00280001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-2.5078
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00280002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00290000
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=00290001
+Entity.point[1].v=00290002
+Entity.point[2].v=00290003
+Entity.normal.v=00290020
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00290001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=2.5078
+Entity.actPoint.y=69.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00290002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=3.5078
+Entity.actPoint.y=69.0078
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00290003
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=2.5078
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00290020
+Entity.type=3001
+Entity.construction=0
+Entity.point[0].v=00290001
+Entity.workplane.v=80020000
+Entity.actNormal.w=1.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002a0000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=002a0001
+Entity.point[1].v=002a0002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002a0001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=3.5078
+Entity.actPoint.y=69.0078
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002a0002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=4.0000
+Entity.actPoint.y=6.2521
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002b0000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=002b0001
+Entity.point[1].v=002b0002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002b0001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=2.5078
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002b0002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002c0000
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=002c0001
+Entity.point[1].v=002c0002
+Entity.point[2].v=002c0003
+Entity.normal.v=002c0020
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002c0001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.5000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002c0002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.5000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002c0003
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002c0020
+Entity.type=3001
+Entity.construction=0
+Entity.point[0].v=002c0001
+Entity.workplane.v=80020000
+Entity.actNormal.w=1.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002d0000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=002d0001
+Entity.point[1].v=002d0002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002d0001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.5000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002d0002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002e0000
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=002e0001
+Entity.point[1].v=002e0002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002e0001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002e0002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002f0000
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=002f0001
+Entity.point[1].v=002f0002
+Entity.point[2].v=002f0003
+Entity.normal.v=002f0020
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002f0001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.2000
+Entity.actPoint.y=60.5000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002f0002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.2000
+Entity.actPoint.y=60.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002f0003
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.5000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=002f0020
+Entity.type=3001
+Entity.construction=0
+Entity.point[0].v=002f0001
+Entity.workplane.v=80020000
+Entity.actNormal.w=1.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00300000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=00300001
+Entity.point[1].v=00300002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00300001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.5000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00300002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00310000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=00310001
+Entity.point[1].v=00310002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00310001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=1.2000
+Entity.actPoint.y=60.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00310002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80020000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=80020002
+Entity.normal.v=80020001
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80020001
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=80020002
+Entity.actNormal.w=1.0000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80020002
+Entity.type=2012
+Entity.construction=0
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80030001
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030002
+Entity.point[1].v=80030003
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030002
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030003
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=3.5000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030004
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030005
+Entity.point[1].v=80030006
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030005
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030006
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=3.5000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030007
+Entity.type=5001
+Entity.construction=1
+Entity.actPoint.x=4.0000
+Entity.actPoint.y=6.2521
+Entity.actNormal.vx=-1.0000
+Entity.actNormal.vy=-0.0078
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030008
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030005
+Entity.point[1].v=80030002
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030009
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030006
+Entity.point[1].v=80030003
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030013
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030014
+Entity.point[1].v=80030015
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030014
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-3.5000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030015
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030016
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030017
+Entity.point[1].v=80030018
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030017
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-3.5000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030018
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030019
+Entity.type=5001
+Entity.construction=1
+Entity.actPoint.x=-3.5000
+Entity.actPoint.y=70.0000
+Entity.actNormal.vx=1.0000
+Entity.actNormal.vy=-0.0078
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030017
+Entity.point[1].v=80030014
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001b
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030018
+Entity.point[1].v=80030015
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001c
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8003001d
+Entity.point[1].v=8003001e
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001d
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-3.5000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001e
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001f
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030020
+Entity.point[1].v=80030021
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030020
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-3.5000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030021
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030022
+Entity.type=5001
+Entity.construction=1
+Entity.actPoint.x=-3.5000
+Entity.actPoint.y=70.0000
+Entity.actNormal.vy=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030023
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030020
+Entity.point[1].v=8003001d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030024
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030021
+Entity.point[1].v=8003001e
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030025
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030026
+Entity.point[1].v=80030027
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030026
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030027
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030028
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030029
+Entity.point[1].v=8003002a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030029
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003002a
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003002b
+Entity.type=5001
+Entity.construction=1
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actNormal.vx=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003002c
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030029
+Entity.point[1].v=80030026
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003002d
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003002a
+Entity.point[1].v=80030027
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003007f
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030080
+Entity.point[1].v=80030081
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030080
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030081
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030082
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030083
+Entity.point[1].v=80030084
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030083
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030084
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030085
+Entity.type=5001
+Entity.construction=1
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.0000
+Entity.actNormal.vx=-1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030086
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030083
+Entity.point[1].v=80030080
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030087
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030084
+Entity.point[1].v=80030081
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030088
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030089
+Entity.point[1].v=8003008a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030089
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008a
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=3.5000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008b
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8003008c
+Entity.point[1].v=8003008d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008c
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008d
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=3.5000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008e
+Entity.type=5001
+Entity.construction=1
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actNormal.vy=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008f
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003008c
+Entity.point[1].v=80030089
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030090
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003008d
+Entity.point[1].v=8003008a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030093
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=80030094
+Entity.actNormal.w=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030094
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030095
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=80030096
+Entity.actNormal.w=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030096
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030097
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030096
+Entity.point[1].v=80030094
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030098
+Entity.type=5000
+Entity.construction=0
+Entity.point[0].v=80030096
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030099
+Entity.type=5000
+Entity.construction=0
+Entity.point[0].v=80030094
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003011f
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030120
+Entity.point[1].v=80030121
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030120
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030121
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-4.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030122
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030123
+Entity.point[1].v=80030124
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030123
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030124
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-4.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030125
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.x=-4.0000
+Entity.actPoint.y=6.2521
+Entity.actNormal.vx=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030126
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030123
+Entity.point[1].v=80030120
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030127
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030124
+Entity.point[1].v=80030121
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030131
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030132
+Entity.point[1].v=80030133
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030132
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=4.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030133
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030134
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030135
+Entity.point[1].v=80030136
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030135
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=4.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030136
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030137
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.x=4.0000
+Entity.actNormal.vx=-1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030138
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030135
+Entity.point[1].v=80030132
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030139
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030136
+Entity.point[1].v=80030133
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003013a
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8003013b
+Entity.point[1].v=8003013c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003013b
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-4.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003013c
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=4.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003013d
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8003013e
+Entity.point[1].v=8003013f
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003013e
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-4.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003013f
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=4.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030140
+Entity.type=5001
+Entity.construction=1
+Entity.actPoint.x=-4.0000
+Entity.actNormal.vy=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030141
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003013e
+Entity.point[1].v=8003013b
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030142
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003013f
+Entity.point[1].v=8003013c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030143
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030144
+Entity.point[1].v=80030145
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030144
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030145
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030146
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030147
+Entity.point[1].v=80030148
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030147
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030148
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030149
+Entity.type=5001
+Entity.construction=1
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.0000
+Entity.actNormal.vy=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003014a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030147
+Entity.point[1].v=80030144
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003014b
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030148
+Entity.point[1].v=80030145
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003014c
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=8003014d
+Entity.point[1].v=8003014e
+Entity.point[2].v=8003014f
+Entity.normal.v=80030150
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003014d
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-2.5078
+Entity.actPoint.y=69.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003014e
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-2.5078
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003014f
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-3.5078
+Entity.actPoint.y=69.0078
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030150
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=8003014d
+Entity.actNormal.w=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030151
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=80030152
+Entity.point[1].v=80030153
+Entity.point[2].v=80030154
+Entity.normal.v=80030155
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030152
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-2.5078
+Entity.actPoint.y=69.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030153
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-2.5078
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030154
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-3.5078
+Entity.actPoint.y=69.0078
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030155
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=80030152
+Entity.actNormal.w=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030156
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030152
+Entity.point[1].v=8003014d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030157
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030153
+Entity.point[1].v=8003014e
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030158
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030154
+Entity.point[1].v=8003014f
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030159
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003015a
+Entity.point[1].v=8003015b
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003015a
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-3.5078
+Entity.actPoint.y=69.0078
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003015b
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003015c
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003015d
+Entity.point[1].v=8003015e
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003015d
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-3.5078
+Entity.actPoint.y=69.0078
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003015e
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003015f
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.x=-3.5078
+Entity.actPoint.y=69.0078
+Entity.actNormal.vx=1.0000
+Entity.actNormal.vy=-0.0078
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030160
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003015d
+Entity.point[1].v=8003015a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030161
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003015e
+Entity.point[1].v=8003015b
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030162
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030163
+Entity.point[1].v=80030164
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030163
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-2.5078
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030164
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030165
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030166
+Entity.point[1].v=80030167
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030166
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-2.5078
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030167
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030168
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.x=-2.5078
+Entity.actPoint.y=70.0000
+Entity.actNormal.vy=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030169
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030166
+Entity.point[1].v=80030163
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003016a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030167
+Entity.point[1].v=80030164
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003016b
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=8003016c
+Entity.point[1].v=8003016d
+Entity.point[2].v=8003016e
+Entity.normal.v=8003016f
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003016c
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=2.5078
+Entity.actPoint.y=69.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003016d
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=3.5078
+Entity.actPoint.y=69.0078
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003016e
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=2.5078
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003016f
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=8003016c
+Entity.actNormal.w=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030170
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=80030171
+Entity.point[1].v=80030172
+Entity.point[2].v=80030173
+Entity.normal.v=80030174
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030171
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=2.5078
+Entity.actPoint.y=69.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030172
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=3.5078
+Entity.actPoint.y=69.0078
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030173
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=2.5078
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030174
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=80030171
+Entity.actNormal.w=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030175
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030171
+Entity.point[1].v=8003016c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030176
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030172
+Entity.point[1].v=8003016d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030177
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030173
+Entity.point[1].v=8003016e
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030178
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030179
+Entity.point[1].v=8003017a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030179
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=3.5078
+Entity.actPoint.y=69.0078
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003017a
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003017b
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003017c
+Entity.point[1].v=8003017d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003017c
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=3.5078
+Entity.actPoint.y=69.0078
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003017d
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=4.0000
+Entity.actPoint.y=6.2521
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003017e
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.x=3.5078
+Entity.actPoint.y=69.0078
+Entity.actNormal.vx=1.0000
+Entity.actNormal.vy=0.0078
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003017f
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003017c
+Entity.point[1].v=80030179
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030180
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003017d
+Entity.point[1].v=8003017a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030181
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030182
+Entity.point[1].v=80030183
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030182
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=2.5078
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030183
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030184
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030185
+Entity.point[1].v=80030186
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030185
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=2.5078
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030186
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030187
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.x=2.5078
+Entity.actPoint.y=70.0000
+Entity.actNormal.vy=-1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030188
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030185
+Entity.point[1].v=80030182
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030189
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030186
+Entity.point[1].v=80030183
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003018a
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=8003018b
+Entity.point[1].v=8003018c
+Entity.point[2].v=8003018d
+Entity.normal.v=8003018e
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003018b
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003018c
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003018d
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003018e
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=8003018b
+Entity.actNormal.w=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003018f
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=80030190
+Entity.point[1].v=80030191
+Entity.point[2].v=80030192
+Entity.normal.v=80030193
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030190
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030191
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030192
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030193
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=80030190
+Entity.actNormal.w=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030194
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030190
+Entity.point[1].v=8003018b
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030195
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030191
+Entity.point[1].v=8003018c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030196
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030192
+Entity.point[1].v=8003018d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030197
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030198
+Entity.point[1].v=80030199
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030198
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030199
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003019a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003019b
+Entity.point[1].v=8003019c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003019b
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003019c
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003019d
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.x=-1.7000
+Entity.actPoint.y=60.5000
+Entity.actNormal.vx=-1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003019e
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003019b
+Entity.point[1].v=80030198
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003019f
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003019c
+Entity.point[1].v=80030199
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301a0
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800301a1
+Entity.point[1].v=800301a2
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301a1
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301a2
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301a3
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800301a4
+Entity.point[1].v=800301a5
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301a4
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301a5
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301a6
+Entity.type=5001
+Entity.construction=1
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.0000
+Entity.actNormal.vy=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301a7
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301a4
+Entity.point[1].v=800301a1
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301a8
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301a5
+Entity.point[1].v=800301a2
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301a9
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=800301aa
+Entity.point[1].v=800301ab
+Entity.point[2].v=800301ac
+Entity.normal.v=800301ad
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301aa
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.2000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301ab
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.2000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301ac
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301ad
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=800301aa
+Entity.actNormal.w=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301ae
+Entity.type=14000
+Entity.construction=0
+Entity.point[0].v=800301af
+Entity.point[1].v=800301b0
+Entity.point[2].v=800301b1
+Entity.normal.v=800301b2
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301af
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.2000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301b0
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.2000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301b1
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301b2
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=800301af
+Entity.actNormal.w=1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301b3
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301af
+Entity.point[1].v=800301aa
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301b4
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301b0
+Entity.point[1].v=800301ab
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301b5
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301b1
+Entity.point[1].v=800301ac
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301b6
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301b7
+Entity.point[1].v=800301b8
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301b7
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301b8
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301b9
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301ba
+Entity.point[1].v=800301bb
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301ba
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.5000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301bb
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=70.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301bc
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.x=1.7000
+Entity.actPoint.y=60.5000
+Entity.actNormal.vx=-1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301bd
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301ba
+Entity.point[1].v=800301b7
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301be
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301bb
+Entity.point[1].v=800301b8
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301bf
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301c0
+Entity.point[1].v=800301c1
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301c0
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.2000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301c1
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=-2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301c2
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301c3
+Entity.point[1].v=800301c4
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301c3
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=1.2000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301c4
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=-1.2000
+Entity.actPoint.y=60.0000
+Entity.actPoint.z=2.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301c5
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.x=1.2000
+Entity.actPoint.y=60.0000
+Entity.actNormal.vy=-1.0000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301c6
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301c3
+Entity.point[1].v=800301c0
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800301c7
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800301c4
+Entity.point[1].v=800301c1
+Entity.actVisible=0
+AddEntity
+
+Constraint.h.v=00000008
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00060001
+Constraint.ptB.v=00070001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000009
+Constraint.type=80
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00070000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000000a
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00070002
+Constraint.ptB.v=00080001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000019
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00120002
+Constraint.ptB.v=00130001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000001a
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00040002
+Constraint.ptB.v=00130002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000001c
+Constraint.type=80
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00130000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000001d
+Constraint.type=81
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00080000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000001e
+Constraint.type=81
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00120000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000001f
+Constraint.type=50
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00130000
+Constraint.entityB.v=00070000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000002c
+Constraint.type=30
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.valA=3.4000
+Constraint.ptA.v=00070002
+Constraint.ptB.v=00120002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+Constraint.comment=3.4
+Constraint.disp.offset.y=-4.0188
+AddConstraint
+
+Constraint.h.v=0000002e
+Constraint.type=30
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.valA=10.0000
+Constraint.ptA.v=00120001
+Constraint.ptB.v=00120002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+Constraint.comment=10
+Constraint.disp.offset.x=4.0188
+AddConstraint
+
+Constraint.h.v=0000002f
+Constraint.type=61
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00060001
+Constraint.ptB.v=00040002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000030
+Constraint.type=30
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.valA=7.0000
+Constraint.ptA.v=00040002
+Constraint.ptB.v=00060001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+Constraint.comment=7
+Constraint.disp.offset.y=4.0188
+AddConstraint
+
+Constraint.h.v=00000058
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00060002
+Constraint.ptB.v=00210001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000005c
+Constraint.type=81
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00230000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000005d
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00040001
+Constraint.ptB.v=00230002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000005f
+Constraint.type=81
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00210000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000062
+Constraint.type=80
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00040001
+Constraint.ptB.v=00060002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000064
+Constraint.type=31
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.valA=70.0000
+Constraint.ptA.v=00040002
+Constraint.entityA.v=00030000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+Constraint.comment=70
+Constraint.disp.offset.x=13.3333
+Constraint.disp.offset.y=-3.0556
+AddConstraint
+
+Constraint.h.v=00000065
+Constraint.type=30
+Constraint.group.v=00000003
+Constraint.valA=4.0000
+Constraint.ptA.v=80030005
+Constraint.ptB.v=80030002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+Constraint.comment=4
+Constraint.disp.offset.x=4.0749
+Constraint.disp.offset.y=-5.6232
+AddConstraint
+
+Constraint.h.v=00000066
+Constraint.type=61
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00210002
+Constraint.ptB.v=00230001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000067
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00210002
+Constraint.ptB.v=00240001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000069
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00230001
+Constraint.ptB.v=00240002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000006a
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00080002
+Constraint.ptB.v=00250001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000006b
+Constraint.type=80
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00250000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000006c
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00120001
+Constraint.ptB.v=00250002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000006d
+Constraint.type=30
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.valA=8.0000
+Constraint.ptA.v=00240001
+Constraint.ptB.v=00240002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+Constraint.comment=8
+Constraint.disp.offset.y=-1.9381
+AddConstraint
+
+Constraint.h.v=0000006e
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00270001
+Constraint.ptB.v=00260003
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000006f
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00270002
+Constraint.ptB.v=00060002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000070
+Constraint.type=42
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00270001
+Constraint.entityA.v=00060000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000071
+Constraint.type=123
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00260000
+Constraint.entityB.v=00270000
+Constraint.other=1
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000072
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00280001
+Constraint.ptB.v=00260002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000073
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00280002
+Constraint.ptB.v=00070002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000074
+Constraint.type=42
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00280001
+Constraint.entityA.v=00070000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000075
+Constraint.type=123
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00260000
+Constraint.entityB.v=00280000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000076
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002a0001
+Constraint.ptB.v=00290002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000077
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002a0002
+Constraint.ptB.v=00040001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000078
+Constraint.type=42
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002a0001
+Constraint.entityA.v=00040000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000079
+Constraint.type=123
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00290000
+Constraint.entityB.v=002a0000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000007a
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002b0001
+Constraint.ptB.v=00290003
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000007b
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002b0002
+Constraint.ptB.v=00120002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000007c
+Constraint.type=42
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002b0001
+Constraint.entityA.v=00130000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000007d
+Constraint.type=123
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00290000
+Constraint.entityB.v=002b0000
+Constraint.other=1
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000007e
+Constraint.type=130
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00290000
+Constraint.entityB.v=00260000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000007f
+Constraint.type=41
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00230001
+Constraint.entityA.v=00030000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000080
+Constraint.type=90
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.valA=2.0000
+Constraint.entityA.v=00290000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+Constraint.comment=2
+Constraint.disp.offset.x=4.7114
+Constraint.disp.offset.y=6.9971
+AddConstraint
+
+Constraint.h.v=00000081
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002d0001
+Constraint.ptB.v=002c0002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000082
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002d0002
+Constraint.ptB.v=00070002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000083
+Constraint.type=42
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002d0001
+Constraint.entityA.v=00080000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000084
+Constraint.type=123
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=002c0000
+Constraint.entityB.v=002d0000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000085
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002e0001
+Constraint.ptB.v=002c0003
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000086
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002e0002
+Constraint.ptB.v=00120001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000087
+Constraint.type=42
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=002e0001
+Constraint.entityA.v=00250000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000088
+Constraint.type=123
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=002c0000
+Constraint.entityB.v=002e0000
+Constraint.other=1
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000089
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00300001
+Constraint.ptB.v=002f0003
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000008a
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00300002
+Constraint.ptB.v=00120002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000008b
+Constraint.type=42
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00300001
+Constraint.entityA.v=00120000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000008c
+Constraint.type=123
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=002f0000
+Constraint.entityB.v=00300000
+Constraint.other=1
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000008d
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00310001
+Constraint.ptB.v=002f0002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000008e
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00310002
+Constraint.ptB.v=002c0003
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000008f
+Constraint.type=42
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00310001
+Constraint.entityA.v=002e0000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000090
+Constraint.type=123
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=002f0000
+Constraint.entityB.v=00310000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000091
+Constraint.type=130
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=002f0000
+Constraint.entityB.v=002c0000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000092
+Constraint.type=90
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.valA=1.0000
+Constraint.entityA.v=002c0000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+Constraint.comment=1
+AddConstraint
+
